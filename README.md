@@ -135,6 +135,6 @@ Run the cells from top to bottom — each section builds on the one before it.
 ## Author
 **Hassan** - feel free to reach out or connect:
 
-[GitHub](https://github.com/hassan-akhter)
+- GitHub: [@hassan-akhter](https://github.com/hassan-akhter)
 
-[LinkedIn](https://www.linkedin.com/in/hassanakhter122/)
+- LinkedIn: [linkedin.com/in/hassanakhter122](https://www.linkedin.com/in/hassanakhter122/)
