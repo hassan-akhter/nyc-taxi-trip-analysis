@@ -44,8 +44,7 @@ All data is publicly available from the  [NYC TLC Trip Record Data portal](https
 - **Demand** peaks at 8–9 AM and 6–8 PM on weekdays; Fridays and Saturdays are the busiest days overall.
 - **Manhattan** accounts for over 90% of all pickups and revenue. NYC yellow taxis are functionally a Manhattan transit system.
 - The **median fare is $9.00** most trips are short, quick hops within a few blocks.
-- **Tip amounts correlate more strongly with fare than with distance**, 
-  suggesting passengers tip proportionally (roughly 15–20% of the meter).
+- **Tip amounts correlate more strongly with fare than with distance** suggesting passengers tip proportionally (roughly 15–20% of the meter).
 - A **Random Forest model** using 5 features predicts tip amounts with meaningful accuracy. `fare_amount` is the dominant predictor.
 
 
@@ -88,8 +87,7 @@ pip install pandas numpy matplotlib seaborn geopandas scikit-learn
 3. Install the required libraries (see above).
 4. Open `NYC_Taxi_Analysis.ipynb` in Jupyter and run all cells from top to bottom.
 
-The notebook is designed to run sequentially, each section depends on the cleaned DataFrame produced by the section before it.
-
+Run the cells from top to bottom — each section builds on the one before it.
 
 ## Results
 
