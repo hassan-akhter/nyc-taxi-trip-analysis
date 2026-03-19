@@ -17,6 +17,24 @@ The notebook is structured in five layers, each building on the last:
 | 4 | Machine Learning | Train and evaluate a tip-prediction model |
 | 5 | Conclusions | Summarise findings in plain language |
 
+## Preview
+
+> Hourly taxi demand across January 2019 - peak hours highlighted in orange.
+
+![Hourly Demand Chart](images/hourly_demand.png)
+
+> Revenue by borough - Manhattan dominates by a wide margin.
+
+![Revenue by Borough](images/revenue_by_borough.png)
+
+> NYC pickup hotspots - darker zones indicate higher trip volume.
+
+![Geospatial Heatmap](images/nyc_heatmap.png)
+
+> Feature importance from the Random Forest model.
+
+![Feature Importance](images/feature_importance.png)
+
 ## Download the Data
 
 The dataset is too large to host on GitHub. Download the files manually and place them in a `data/` folder in the project root.
@@ -52,14 +70,20 @@ All data is publicly available from the  [NYC TLC Trip Record Data portal](https
 ```
 nyc-taxi-analysis/
 │
-├── data/
+├── data/                              ← not included (see Download the Data)
 │   ├── yellow_tripdata_2019-01.csv    ← main trip records
 │   ├── taxi+_zone_lookup.csv          ← zone → borough mapping
 │   └── taxi_zones/                    ← shapefile for map plots
 │       ├── taxi_zones.shp
-│       └── ...
+│
+├── images/                            ← chart screenshots for README
+│   ├── hourly_demand.png
+│   ├── revenue_by_borough.png
+│   ├── nyc_heatmap.png
+│   └── feature_importance.png      
 │
 ├── NYC_Taxi_Analysis.ipynb            ← main notebook
+├── .gitignore
 └── README.md
 ```
 
